@@ -55,8 +55,7 @@ class App extends Component {
                         flexDirection: "column",
                         justifyContent: "center",
                         alignItems: "center",
-                        borderWidth: "5px",
-                        borderStyle: "solid",
+                       
                       }}
               >{this.state.Person.bio}</h1>
             <img src={this.state.Person.imgSrc} alt="img"></img>
